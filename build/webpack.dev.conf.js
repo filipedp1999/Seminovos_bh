@@ -12,7 +12,8 @@ const portfinder = require("portfinder");
 
 const HOST = process.env.HOST;
 const PORT = process.env.PORT && Number(process.env.PORT);
-// x
+
+// Alterado usePostCSS para corrigir erro de importação do bootstrap.css
 const devWebpackConfig = merge(baseWebpackConfig, {
   module: {
     rules: utils.styleLoaders({
