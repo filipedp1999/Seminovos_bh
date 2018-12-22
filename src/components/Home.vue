@@ -1,12 +1,18 @@
 <template>
   <div class="home">
-    <Navbar/>
+    <header>
+      <Navbar/>
+    </header>
+    <main>
+      <SubHeader/>
+    </main>
     <button class="btn btn-danger">Eu sou o bootstrap{{msg}}</button>
   </div>
 </template>
 
 <script>
 import Navbar from "./subcomponents/Navbar";
+import SubHeader from "./subcomponents/SubHeader";
 export default {
   name: "Home",
   data() {
@@ -15,7 +21,8 @@ export default {
     };
   },
   components: {
-    Navbar
+    Navbar,
+    SubHeader
   }
 };
 </script>

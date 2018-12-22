@@ -1,5 +1,5 @@
 <template>
-  <header>
+  <div>
     <nav class="navbar navbar-light">
       <div class="container">
         <div class="row">
@@ -18,30 +18,45 @@
       <div class="container menu">
         <!-- Navbar content -->
         <div class="d-flex flex-row">
-          <div class="p-1">HOME</div>
-          <div class="p-1">PLANOS</div>
-          <div class="p-1">ANUNCIE</div>
-          <div class="p-1">REVENDAS</div>
-          <div class="p-1">NOTICIAS</div>
-          <div class="p-1">AJUDA</div>
-          <div class="p-1">FALE CONOSCO</div>
+          <div class="p-1">
+            <a class="text-white" href="#">HOME</a>
+          </div>
+          <div class="p-1">
+            <a class="text-white" href="#">PLANOS</a>
+          </div>
+          <div class="p-1">
+            <a class="text-white" href="#">ANUNCIE</a>
+          </div>
+          <div class="p-1">
+            <a class="text-white" href="#">REVENDAS</a>
+          </div>
+          <div class="p-1">
+            <a class="text-white" href="#">NOTICIAS</a>
+          </div>
+          <div class="p-1">
+            <a class="text-white" href="#">AJUDA</a>
+          </div>
+          <div class="p-1">
+            <a class="text-white" href="#">FALE CONOSCO</a>
+          </div>
         </div>
         <div class="d-flex flex-row-reverse">
-          <div class="p-2">&nbsp; ACESSAR MEUS ANÚNCIOS</div>
+          <div class="p-2">
+            &nbsp;
+            <a class="text-white" href="#">ACESSAR MEUS ANÚNCIOS</a>
+          </div>
           <img src="../../assets/icons/ico_areausuario.svg" class="align-middle icon">
         </div>
       </div>
     </nav>
-  </header>
+  </div>
 </template>
 
 <script>
 export default {
   name: "Navbar",
   data() {
-    return {
-      msg: "Welcome to Your Vue.js App"
-    };
+    return {};
   }
 };
 </script>
@@ -53,12 +68,16 @@ export default {
   width: 100%;
   height: auto;
 }
+.ad {
+  width: 970px;
+  height: 90px;
+}
 .icon {
   width: 10%;
   height: 10%;
 }
 .menu {
   font-family: Roboto;
-  font-size: 80%;
+  font-size: 9 0%;
 }
 </style>
