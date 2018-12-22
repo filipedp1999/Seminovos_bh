@@ -1,0 +1,73 @@
+{
+  "anuncios": [
+    {
+      "id": 1,
+      "carro": "MERCEDES-BENZ GLA 200",
+      "detalhes": "1.6 CGI ADVANCE 16V TURBO FLEX 4P AUTOMÁTICO",
+      "valor": "0",
+      "data_cadastro": "28/02/2018",
+      "valor_mercado": 0,
+      "dados_carro": {
+        "categorias": ["carro", "hatch", "bmw", "428i"],
+        "aceita_financiamento": true,
+        "km": 39807,
+        "ano_modelo": "2018/2019",
+        "cambio": "manual",
+        "portas": 4,
+        "cor": "cinza",
+        "final_placa": "3",
+        "aceita_troca": false,
+        "acessorios": [
+          "Airbag",
+          "Ar Condicionado",
+          "Banco com regulagem de altura",
+          "Banco de couro",
+          "CD e mp3 player",
+          "Alarme",
+          "Ar quente",
+          "Banco dianteiros com Aquecimento",
+          "Capota marítima",
+          "CD player",
+          "Alarme",
+          "Ar quente",
+          "Banco dianteiros com Aquecimento",
+          "Capota marítima",
+          "CD player",
+          "Alarme",
+          "Ar quente",
+          "Banco dianteiros com Aquecimento",
+          "Capota marítima",
+          "CD player"
+        ]
+      },
+      "observacoes": "VENDO - TROCO - FINANCIO VEÍCULO IMPECÁVEL DE ÚNICO DONO COM TODAS AS REVISÕES NA CONCESSIONARIA. PNEUS MICHELIN NOVOS ESTEPE NUNCA RODOU. SAMUEL - EXTRA VEÍCULOS (31) 3582-2025 - LOJA (31) 98525-0336 - VIVO (31) 99356-3611 - TIM E WHATSAPP",
+      "contato": {
+        "nome": "Leonardo Nacif Morreira",
+        "status": "online",
+        "telefone": "31 9989-0000",
+        "possui_wpp": true,
+        "operadora": "Tim"
+      },
+      "company": {
+        "name": "Romaguera-Crona",
+        "catchPhrase": "Multi-layered client-server neural-net",
+        "bs": "harness real-time e-markets"
+      },
+      "foto_destaque": "https://i.ibb.co/7pNqXD1/veiculo-preparo.png",
+      "fotos": [
+        "https://abrilquatrorodas.files.wordpress.com/2017/08/img_0947.jpg?quality=70&strip=info&strip=info",
+        "https://carspt-images.akamaized.net/images_carspt/93664703_1_1080x720.jpg",
+        "https://www.autocar.co.uk/sites/autocar.co.uk/files/styles/gallery_slide/public/images/car-reviews/first-drives/legacy/17c238_013.jpg?itok=RMW8EpmC",
+        "http://s2.glbimg.com/3pjg-clDSGWOORRX9577SncFdPM=/620x413/e.glbimg.com/og/ed/f/original/2017/08/08/img_1778.jpg",
+        "https://img.icarcdn.com/my/listing/new-car-carlist-mercedes-benz-gla-class-gla200-suv-malaysia/9589383_ND3kScEJnWkpUCIwElQ7gC.jpg?variation=gallery",
+        "http://s2.glbimg.com/FxWjnUiDU0BZ4JAlcGiMu-4lzjo=/620x400/e.glbimg.com/og/ed/f/original/2014/12/05/aro7767.jpg",
+        "https://http2.mlstatic.com/D_NQ_NP_889831-MLB28502957820_102018-UB.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2L69a7swIUE_rhxhZLXl22YmuQ5cwX3O4OzA6W-pMYC6r9nTV",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwJn9TmdGLcwN7vS4GxFAlTE1Ljp8SIBhWxer0nuMjS1_BBUVg",
+        "https://s3.amazonaws.com/www.revistacarro.com.br/static/images/uploads/mercedesgla04lanterna_620x350.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ_SAmHqbI31fGseJo7Evw3AKmg9p4vSerxyI47baF7g8WdZg_EA",
+        "https://www.autoo.com.br/fotos/2017/8/960_720/mercedes-benz_gla_2018_1_09082017_6763_960_720.jpg"
+      ]
+    }
+  ]
+}

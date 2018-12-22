@@ -5,6 +5,8 @@
   "author": "Filipe Dev",
   "private": true,
   "scripts": {
+    "prepare": "npm install -g json-server",
+    "start-bd": "json-server --watch static/bd.json",
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
     "unit": "cross-env BABEL_ENV=test karma start test/unit/karma.conf.js --single-run",
@@ -18,7 +20,9 @@
     "jquery": "^3.3.1",
     "popper.js": "^1.14.6",
     "vue": "^2.5.2",
-    "vue-router": "^3.0.1"
+    "vue-resource": "^1.5.1",
+    "vue-router": "^3.0.1",
+    "vue-session": "^1.0.0"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",

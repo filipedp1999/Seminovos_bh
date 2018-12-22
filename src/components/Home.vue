@@ -5,24 +5,24 @@
     </header>
     <main>
       <SubHeader/>
+      <Content/>
     </main>
-    <button class="btn btn-danger">Eu sou o bootstrap{{msg}}</button>
+    <button class="btn btn-danger">Eu sou o bootstrap</button>
   </div>
 </template>
 
 <script>
 import Navbar from "./subcomponents/Navbar";
 import SubHeader from "./subcomponents/SubHeader";
+import Content from "./subcomponents/Content";
+
 export default {
   name: "Home",
-  data() {
-    return {
-      msg: "Welcome to Your Vue.js App"
-    };
-  },
+
   components: {
     Navbar,
-    SubHeader
+    SubHeader,
+    Content
   }
 };
 </script>

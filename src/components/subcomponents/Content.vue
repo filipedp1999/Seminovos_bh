@@ -1,10 +1,25 @@
-<template></template>
+<template>
+  <div>{{result}}</div>
+</template>
 
 <script>
 export default {
   name: "Content",
   data() {
-    return {};
+    return {
+      result: {}
+    };
+  },
+  created() {
+    this.$http.get(this.bd_host + "anuncios").then(
+      response => {
+        // get body data
+        this.result = response.body;
+      },
+      response => {
+        // error callback
+      }
+    );
   }
 };
 </script>
@@ -18,12 +33,5 @@ export default {
 }
 .titulo {
   font-family: Roboto bold;
-}
-.email {
-  background-color: #df9f11;
-}
-.line {
-  height: 2px;
-  background-color: #dadada;
 }
 </style>
