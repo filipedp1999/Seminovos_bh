@@ -5,16 +5,19 @@
       "carro": "MERCEDES-BENZ GLA 200",
       "detalhes": "1.6 CGI ADVANCE 16V TURBO FLEX 4P AUTOMÁTICO",
       "valor": "0",
+      "valor_seminovos": "0",
+      "valor_fipe": "0",
       "data_cadastro": "28/02/2018",
       "valor_mercado": 0,
+      "categorias": ["carro", "hatch", "bmw", "428i"],
       "dados_carro": {
-        "categorias": ["carro", "hatch", "bmw", "428i"],
         "aceita_financiamento": true,
         "km": 39807,
         "ano_modelo": "2018/2019",
         "cambio": "manual",
         "portas": 4,
         "cor": "cinza",
+        "combustivel": "flex",
         "final_placa": "3",
         "aceita_troca": false,
         "acessorios": [
@@ -47,11 +50,6 @@
         "telefone": "31 9989-0000",
         "possui_wpp": true,
         "operadora": "Tim"
-      },
-      "company": {
-        "name": "Romaguera-Crona",
-        "catchPhrase": "Multi-layered client-server neural-net",
-        "bs": "harness real-time e-markets"
       },
       "foto_destaque": "https://i.ibb.co/7pNqXD1/veiculo-preparo.png",
       "fotos": [

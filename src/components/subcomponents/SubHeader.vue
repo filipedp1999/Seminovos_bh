@@ -1,7 +1,6 @@
 <template>
-  <div class="container">
-    <br>
-    <div class="d-flex flex-row align-items-center">
+  <div>
+    <div class="mt-2 d-flex flex-row align-items-center">
       <div class="p-1 flex-grow-1 text-dark">
         <h3>DETALHES DO VEÍCULO</h3>
       </div>

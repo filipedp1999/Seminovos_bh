@@ -78,6 +78,5 @@ export default {
 }
 .menu {
   font-family: Roboto;
-  font-size: 9 0%;
 }
 </style>

@@ -4,10 +4,11 @@
       <Navbar/>
     </header>
     <main>
-      <SubHeader/>
-      <Content/>
+      <div class="container">
+        <SubHeader/>
+        <Content/>
+      </div>
     </main>
-    <button class="btn btn-danger">Eu sou o bootstrap</button>
   </div>
 </template>
 
@@ -28,5 +29,12 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
+<style>
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+a {
+  font-family: Roboto;
+}
+.text-seminovos {
+  color: #ed9902;
+}
 </style>
