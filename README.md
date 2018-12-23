@@ -1,27 +1,27 @@
-# seminovosbh
+# Teste Semi Novos BH
 
-> Teste para Semi Novos BH
+> Teste para Semi Novos BH feito em webpack com VueJs
 
-## Build Setup
+# Começando o Site:
 
-``` bash
-# install dependencies
-npm install
+## Instalando Dependências:
 
-# serve with hot reload at localhost:8080
-npm run dev
+Use o comando abaixo para instalar o [json-server](https://github.com/typicode/json-server) que simula uma Rest API para consumo do site
 
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-
-# run unit tests
-npm run unit
-
-# run all tests
-npm test
+```bash
+$ npm install -g [json-server](https://github.com/typicode/json-server)
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+Em seguida use para instalar as demais dependências
+
+```bash
+npm install
+```
+
+#Uso
+Feito isso use os comando para começar o projeto e seu "banco de dados" vindo da API falsa
+
+```bash
+$ npm run database
+$ npm run start
+```
