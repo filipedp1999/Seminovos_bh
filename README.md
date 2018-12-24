@@ -18,7 +18,8 @@ Em seguida use para instalar as demais dependências
 npm install
 ```
 
-##Uso
+## Uso
+
 Feito isso use os comando para começar o projeto e seu "banco de dados" vindo da API falsa
 
 ```bash
