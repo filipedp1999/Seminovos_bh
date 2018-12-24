@@ -51,6 +51,100 @@
         "possui_wpp": true,
         "operadora": "Tim"
       },
+      "relacionados": {
+        "mesma_faixa_preco": [
+          {
+            "modelo": "Chevrolet Vectra - 2012",
+            "foto": "https://www.dsf.my/wp-content/uploads/2018/09/electric-car2-620x350.jpg",
+
+            "valor": 30000.0,
+            "km": 128000,
+            "cambio": "automático"
+          },
+          {
+            "modelo": "Chevrolet Vectra - 2012",
+            "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaF3RzbxHZlV4m73ACWyIzGxoNF3d5s3ZqloE4XsCC47SZdHxWXQ",
+            "valor": 30000.0,
+            "km": 128000,
+            "cambio": "automático"
+          },
+          {
+            "modelo": "Chevrolet Vectra - 2012",
+            "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8CEXfzdjyRYLm_WRx3GI8YdEUmul1Y4LbMpcfshEzgE38OG5s",
+            "valor": 30000.0,
+            "km": 128000,
+            "cambio": "automático"
+          }
+        ],
+        "mesma_categora": [
+          {
+            "modelo": "Chevrolet Vectra - 2012",
+            "foto": "https://abrilquatrorodas.files.wordpress.com/2016/12/jeremy-setembro1.jpg",
+            "valor": 30000.0,
+            "km": 128000,
+            "cambio": "automático"
+          },
+          {
+            "modelo": "Chevrolet Vectra - 2012",
+            "foto": "https://s3.amazonaws.com/www.revistacarro.com.br/static/images/uploads/mercedesgla04lanterna_620x350.jpg",
+            "valor": 30000.0,
+            "km": 128000,
+            "cambio": "automático"
+          },
+          {
+            "modelo": "Chevrolet Vectra - 2012",
+            "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ_SAmHqbI31fGseJo7Evw3AKmg9p4vSerxyI47baF7g8WdZg_EA",
+            "valor": 30000.0,
+            "km": 128000,
+            "cambio": "automático"
+          }
+        ],
+        "visitados": [
+          {
+            "modelo": "Chevrolet Vectra - 2012",
+            "foto": "https://abrilquatrorodas.files.wordpress.com/2016/12/jeremy-setembro1.jpg",
+            "valor": 30000.0,
+            "km": 128000,
+            "cambio": "automático"
+          },
+          {
+            "modelo": "Chevrolet Vectra - 2012",
+            "foto": "https://s3.amazonaws.com/www.revistacarro.com.br/static/images/uploads/mercedesgla04lanterna_620x350.jpg",
+            "valor": 30000.0,
+            "km": 128000,
+            "cambio": "automático"
+          },
+          {
+            "modelo": "Chevrolet Vectra - 2012",
+            "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ_SAmHqbI31fGseJo7Evw3AKmg9p4vSerxyI47baF7g8WdZg_EA",
+            "valor": 30000.0,
+            "km": 128000,
+            "cambio": "automático"
+          },
+          {
+            "modelo": "Chevrolet Vectra - 2012",
+            "foto": "https://www.dsf.my/wp-content/uploads/2018/09/electric-car2-620x350.jpg",
+            "valor": 30000.0,
+            "km": 128000,
+            "cambio": "automático"
+          },
+          {
+            "modelo": "Chevrolet Vectra - 2012",
+            "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaF3RzbxHZlV4m73ACWyIzGxoNF3d5s3ZqloE4XsCC47SZdHxWXQ",
+            "valor": 30000.0,
+            "km": 128000,
+            "cambio": "automático"
+          },
+          {
+            "modelo": "Chevrolet Vectra - 2012",
+            "foto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8CEXfzdjyRYLm_WRx3GI8YdEUmul1Y4LbMpcfshEzgE38OG5s",
+            "valor": 30000.0,
+            "km": 128000,
+            "cambio": "automático"
+          }
+        ]
+      },
+
       "foto_destaque": "https://i.ibb.co/7pNqXD1/veiculo-preparo.png",
       "fotos": [
         "https://abrilquatrorodas.files.wordpress.com/2017/08/img_0947.jpg?quality=70&strip=info&strip=info",

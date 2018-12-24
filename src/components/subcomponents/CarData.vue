@@ -74,7 +74,7 @@
           </div>
         </div>
       </div>
-      <div class="col-12 mt-2">
+      <div class="col-12 9mt-2">
         <p class="h5">Acessórios</p>
         <div class="row">
           <div
@@ -183,12 +183,6 @@ export default {
     ToValor: value => {
       value = parseFloat(value);
       return value.toFixed(2);
-    },
-    ToAcima: value => {
-      if (value) {
-        return "acima";
-      }
-      return "abaixo";
     }
   }
 };
@@ -208,5 +202,9 @@ export default {
 }
 .bg-grey {
   background-color: #efefef;
+}
+.icon {
+  width: 10%;
+  height: auto;
 }
 </style>

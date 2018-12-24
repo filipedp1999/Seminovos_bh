@@ -17,11 +17,13 @@
       </div>
       <div class="col-2">YYYY</div>
     </div>
+    <Recommendations :dados_anuncio="anuncio" :loaded="loaded"/>
   </div>
 </template>
 
 <script>
 import CarData from "./CarData";
+import Recommendations from "./Recommendations";
 export default {
   name: "Content",
   data() {
@@ -53,7 +55,8 @@ export default {
   },
   computed: {},
   components: {
-    CarData
+    CarData,
+    Recommendations
   }
 };
 </script>

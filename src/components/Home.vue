@@ -7,6 +7,7 @@
       <div class="container">
         <SubHeader/>
         <Content/>
+        <Recommendations/>
       </div>
     </main>
   </div>
@@ -36,5 +37,9 @@ a {
 }
 .text-seminovos {
   color: #ed9902;
+}
+.icon {
+  width: 29%;
+  height: auto;
 }
 </style>

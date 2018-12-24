@@ -20,6 +20,12 @@ Vue.mixin({
     return {
       bd_host: "http://localhost:3000/"
     };
+  },
+  filters: {
+    ToValor: value => {
+      value = parseFloat(value);
+      return value.toFixed(2);
+    }
   }
 });
 new Vue({
