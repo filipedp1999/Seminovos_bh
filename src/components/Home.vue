@@ -7,7 +7,6 @@
       <div class="container">
         <SubHeader/>
         <Content/>
-        <Recommendations/>
         <Ad/>
       </div>
     </main>
@@ -55,6 +54,10 @@ a {
 }
 .icon {
   width: 29%;
+  height: auto;
+}
+.icon-xs {
+  width: 7%;
   height: auto;
 }
 .bg-grey {

@@ -202,9 +202,7 @@ export default {
   width: 75px;
   height: 75px;
 }
-.bg-grey {
-  background-color: #efefef;
-}
+
 .icon {
   width: 10%;
   height: auto;

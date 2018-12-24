@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="mt-2 d-flex flex-row align-items-center">
+    <div class="mt-2 d-flex flex-row border-bottom border-dark align-items-center">
       <div class="p-1 flex-grow-1 text-dark">
         <h3>DETALHES DO VEÍCULO</h3>
       </div>
@@ -26,7 +26,6 @@
         </a>
       </div>
     </div>
-    <hr class="line">
   </div>
 </template>
 
