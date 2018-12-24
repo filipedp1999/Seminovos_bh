@@ -12,30 +12,131 @@
         </div>
       </div>
       <div class="col-4">
-        <a>{{dados_anuncio.carro}}</a>
-        <a>{{dados_anuncio.detalhes}}</a>
-        <a>
-          R$ {{dados_anuncio.valor}}
-          <a v-show="dados_carro.aceita_financiamento">+ Financiamento</a>
-        </a>
-        <div class="row">
-          <div class="col-6">KM</div>
-          <div class="col-6">{{dados_carro.km}}</div>
-          <div class="col-6">COMBUSTÍVEL</div>
-          <div class="col-6">{{dados_carro.combustivel}}</div>
-          <div class="col-6">ANO/MODELO</div>
-          <div class="col-6">{{dados_carro.ano_modelo}}</div>
-          <div class="col-6">CÂMBIO</div>
-          <div class="col-6">{{dados_carro.cambio}}</div>
-          <div class="col-6">PORTAS</div>
-          <div class="col-6">{{dados_carro.portas}}</div>
-          <div class="col-6">COR</div>
-          <div class="col-6">{{dados_carro.cor}}</div>
-          <div class="col-6">FINAL PLACA</div>
-          <div class="col-6">{{dados_carro.final_placa}}</div>
+        <div class="text-left">
+          <h5>{{dados_anuncio.carro}}</h5>
         </div>
-
-        <img src="../../assets/img/banner_financiamento.jpg" class="img mt-2">
+        <div class="mt-2">
+          <small class="text-dark">{{dados_anuncio.detalhes}}</small>
+        </div>
+        <div class="mt-2">
+          <h4 class="text-seminovos">
+            R$ {{dados_anuncio.valor}}
+            <small
+              v-show="dados_carro.aceita_financiamento"
+              class="text-dark"
+            >+ Financiamento</small>
+          </h4>
+        </div>
+        <div class="row">
+          <!-- ITEM -->
+          <div class="col-12 mt-2 border-bottom border-light">
+            <div class="row">
+              <div class="col-6">
+                <h6>
+                  <img src="../../assets/icons/ico_km.svg" class="icon-s align-middle">
+                  KM
+                </h6>
+              </div>
+              <div class="col-6">
+                <small>{{dados_carro.km}}</small>
+              </div>
+            </div>
+          </div>
+          <!-- / ITEM -->
+          <!-- ITEM -->
+          <div class="col-12 mt-2 border-bottom border-light">
+            <div class="row">
+              <div class="col-6">
+                <h6>
+                  <img src="../../assets/icons/ico_combustivel.svg" class="icon-s align-middle">
+                  COMBUSTÍVEL
+                </h6>
+              </div>
+              <div class="col-6">
+                <small>{{dados_carro.combustivel |ToMaiusculo}}</small>
+              </div>
+            </div>
+          </div>
+          <!-- / ITEM -->
+          <!-- ITEM -->
+          <div class="col-12 mt-2 border-bottom border-light">
+            <div class="row">
+              <div class="col-6">
+                <h6>
+                  <img src="../../assets/icons/ico_km.svg" class="icon-s align-middle">
+                  ANO/MODELO
+                </h6>
+              </div>
+              <div class="col-6">
+                <small>{{dados_carro.ano_modelo |ToMaiusculo}}</small>
+              </div>
+            </div>
+          </div>
+          <!-- / ITEM -->
+          <!-- ITEM -->
+          <div class="col-12 mt-2 border-bottom border-light">
+            <div class="row">
+              <div class="col-6">
+                <h6>
+                  <img src="../../assets/icons/ico_cambio.svg" class="icon-s align-middle">
+                  CÂMBIO
+                </h6>
+              </div>
+              <div class="col-6">
+                <small>{{dados_carro.cambio |ToMaiusculo}}</small>
+              </div>
+            </div>
+          </div>
+          <!-- / ITEM -->
+          <!-- ITEM -->
+          <div class="col-12 mt-2 border-bottom border-light">
+            <div class="row">
+              <div class="col-6">
+                <h6>
+                  <img src="../../assets/icons/ico_portas.svg" class="icon-s align-middle">
+                  PORTAS
+                </h6>
+              </div>
+              <div class="col-6">
+                <small>{{dados_carro.portas}}</small>
+              </div>
+            </div>
+          </div>
+          <!-- / ITEM -->
+          <!-- ITEM -->
+          <div class="col-12 mt-2 border-bottom border-light">
+            <div class="row">
+              <div class="col-6">
+                <h6>
+                  <img src="../../assets/icons/ico_cor.svg" class="icon-s align-middle">
+                  COR
+                </h6>
+              </div>
+              <div class="col-6">
+                <small>{{dados_carro.cor |ToMaiusculo}}</small>
+              </div>
+            </div>
+          </div>
+          <!-- / ITEM -->
+          <!-- ITEM -->
+          <div class="col-12 mt-2 border-bottom border-light">
+            <div class="row">
+              <div class="col-6">
+                <h6>
+                  <img src="../../assets/icons/ico_finalplaca.svg" class="icon-s align-middle">
+                  FINAL PLACA
+                </h6>
+              </div>
+              <div class="col-6">
+                <small>{{dados_carro.final_placa }}</small>
+              </div>
+            </div>
+          </div>
+          <!-- / ITEM -->
+          <div class="col-12 mt-5">
+            <img src="../../assets/img/banner_financiamento.jpg" class="img mt-4">
+          </div>
+        </div>
       </div>
       <div class="col-12 mt-2">
         <div class="d-flex bg-grey flex-row">

@@ -25,6 +25,9 @@ Vue.mixin({
     ToValor: value => {
       value = parseFloat(value);
       return value.toFixed(2);
+    },
+    ToMaiusculo: value => {
+      return value.toUpperCase();
     }
   }
 });

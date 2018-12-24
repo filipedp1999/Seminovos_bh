@@ -60,6 +60,10 @@ a {
   width: 7%;
   height: auto;
 }
+.icon-s {
+  width: 12%;
+  height: auto;
+}
 .bg-grey {
   background-color: #efefef;
 }
