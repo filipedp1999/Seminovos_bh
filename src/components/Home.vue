@@ -8,6 +8,7 @@
         <SubHeader/>
         <Content/>
         <Recommendations/>
+        <Ad/>
       </div>
     </main>
   </div>
@@ -17,6 +18,7 @@
 import Navbar from "./subcomponents/Navbar";
 import SubHeader from "./subcomponents/SubHeader";
 import Content from "./subcomponents/Content";
+import Ad from "./subcomponents/Ad";
 
 export default {
   name: "Home",
@@ -24,7 +26,8 @@ export default {
   components: {
     Navbar,
     SubHeader,
-    Content
+    Content,
+    Ad
   }
 };
 </script>
