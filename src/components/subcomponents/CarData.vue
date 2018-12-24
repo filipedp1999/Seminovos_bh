@@ -74,6 +74,7 @@
           </div>
         </div>
       </div>
+      <!-- SESSÃO DE ACESSÓRIOS -->
       <div class="col-12 9mt-2">
         <p class="h5">Acessórios</p>
         <div class="row">
@@ -89,6 +90,7 @@
           </div>
         </div>
       </div>
+      <!-- / SESSÃO DE ACESSÓRIOS -->
       <!-- CONTAINER DE OBSERVACOES -->
       <div class="col-12 mt-2">
         <p class="h5">Observações</p>

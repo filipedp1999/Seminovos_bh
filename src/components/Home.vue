@@ -11,6 +11,10 @@
         <Ad/>
       </div>
     </main>
+    <footer>
+      <Footer/>
+      <Copyright/>
+    </footer>
   </div>
 </template>
 
@@ -19,6 +23,8 @@ import Navbar from "./subcomponents/Navbar";
 import SubHeader from "./subcomponents/SubHeader";
 import Content from "./subcomponents/Content";
 import Ad from "./subcomponents/Ad";
+import Footer from "./subcomponents/Footer";
+import Copyright from "./subcomponents/Copyright";
 
 export default {
   name: "Home",
@@ -27,7 +33,9 @@ export default {
     Navbar,
     SubHeader,
     Content,
-    Ad
+    Ad,
+    Footer,
+    Copyright
   }
 };
 </script>
@@ -35,6 +43,10 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style>
 @import url("https://fonts.googleapis.com/css?family=Roboto");
+.img {
+  width: 100%;
+  height: auto;
+}
 a {
   font-family: Roboto;
 }
@@ -44,5 +56,8 @@ a {
 .icon {
   width: 29%;
   height: auto;
+}
+.bg-grey {
+  background-color: #efefef;
 }
 </style>
