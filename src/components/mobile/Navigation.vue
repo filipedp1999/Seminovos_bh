@@ -2,38 +2,42 @@
   <div v-if="loaded">
     <div class="container mt-3" v-if="loaded">
       <div class="row d-lg-none d-xl-none">
-        <div class="col-2">
-          <a href="#">
-            <img src="../../assets/icons/ico_setaesquerda.svg" class="img-fluid">
-          </a>
-        </div>
-        <div class="col-9">
-          <span>VOLTAR PARA BUSCA</span>
-        </div>
-        <div class="col-12 mt-2 mt-sm-0 col-sm-7">
+        <div class="col-12 col-lg-12">
           <div class="row">
-            <div v-for="categoria in categorias" :key="categoria.id" class="col-3 col-sm-3">
-              <div class="text-center p-2 bg-warning">
-                <a class="text-dark" href="#">{{categoria}}</a>
+            <div class="col-2">
+              <a href="#">
+                <img src="../../assets/icons/ico_setaesquerda.svg" class="img-fluid">
+              </a>
+            </div>
+            <div class="col-9">
+              <span>VOLTAR PARA BUSCA</span>
+            </div>
+            <div class="col-12 mt-2 mt-sm-0 col-sm-7">
+              <div class="row">
+                <div v-for="categoria in categorias" :key="categoria.id" class="col-3 col-sm-3">
+                  <div class="text-center p-2 bg-warning">
+                    <a class="text-dark" href="#">{{categoria}}</a>
+                  </div>
+                </div>
               </div>
             </div>
+            <div class="col-2 pt-2">
+              <a href="#">
+                <img src="../../assets/icons/ico_setaesquerda.svg" class="img-fluid">
+              </a>
+            </div>
+            <div class="col-8 text-center pt-2">
+              <h5 class="p-2 text-seminovos ml-2">
+                {{anuncio_escolhido+1}}
+                <span class="text-dark">de {{total_anuncios}}</span>
+              </h5>
+            </div>
+            <div class="col-2 pt-2">
+              <a href="#">
+                <img src="../../assets/icons/ico_setadireita.svg">
+              </a>
+            </div>
           </div>
-        </div>
-        <div class="col-2 pt-2">
-          <a href="#">
-            <img src="../../assets/icons/ico_setaesquerda.svg" class="img-fluid">
-          </a>
-        </div>
-        <div class="col-8 text-center pt-2">
-          <h5 class="p-2 text-seminovos ml-2">
-            {{anuncio_escolhido+1}}
-            <span class="text-dark">de {{total_anuncios}}</span>
-          </h5>
-        </div>
-        <div class="col-2 pt-2">
-          <a href="#">
-            <img src="../../assets/icons/ico_setadireita.svg">
-          </a>
         </div>
       </div>
     </div>

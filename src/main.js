@@ -18,7 +18,7 @@ Vue.config.productionTip = false;
 Vue.mixin({
   data() {
     return {
-      bd_host: "http://192.168.0.43:3000/"
+      bd_host: "http://localhost:3000/"
     };
   },
   filters: {
@@ -28,6 +28,12 @@ Vue.mixin({
     },
     ToMaiusculo: value => {
       return value.toUpperCase();
+    },
+    ToSouN: value => {
+      if (value) {
+        return "sim";
+      }
+      return "não";
     }
   }
 });

@@ -4,11 +4,15 @@
     <nav class="navbar navbar-light bg-light">
       <div class="container">
         <div class="row">
-          <div class="col-lg-2 col-3">
-            <img src="../../assets/img/logo.svg" class="img-fluid">
-          </div>
-          <div class="col-lg-10 col-9">
-            <img src="../../assets/img/banner.jpg" class="img-fluid">
+          <div class="col-12">
+            <div class="row">
+              <div class="col-lg-2 col-3">
+                <img src="../../assets/img/logo.svg" class="img-fluid">
+              </div>
+              <div class="col-lg-10 col-9">
+                <img src="../../assets/img/banner.jpg" class="img-fluid">
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -61,6 +65,7 @@
         </div>
       </div>
     </nav>
+
     <!-- / SEGUNDO MENU -->
   </div>
 </template>
