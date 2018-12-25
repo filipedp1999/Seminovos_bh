@@ -10,8 +10,8 @@
       "data_cadastro": "28/02/2018",
       "valor_mercado": 0,
       "categorias": ["carro", "hatch", "bmw", "428i"],
+      "aceita_financiamento": true,
       "dados_carro": {
-        "aceita_financiamento": true,
         "km": 39807,
         "ano_modelo": "2018/2019",
         "cambio": "manual",
@@ -147,17 +147,17 @@
 
       "foto_destaque": "https://i.ibb.co/7pNqXD1/veiculo-preparo.png",
       "fotos": [
-        "https://abrilquatrorodas.files.wordpress.com/2017/08/img_0947.jpg?quality=70&strip=info&strip=info",
-        "https://carspt-images.akamaized.net/images_carspt/93664703_1_1080x720.jpg",
-        "https://www.autocar.co.uk/sites/autocar.co.uk/files/styles/gallery_slide/public/images/car-reviews/first-drives/legacy/17c238_013.jpg?itok=RMW8EpmC",
-        "http://s2.glbimg.com/3pjg-clDSGWOORRX9577SncFdPM=/620x413/e.glbimg.com/og/ed/f/original/2017/08/08/img_1778.jpg",
-        "https://img.icarcdn.com/my/listing/new-car-carlist-mercedes-benz-gla-class-gla200-suv-malaysia/9589383_ND3kScEJnWkpUCIwElQ7gC.jpg?variation=gallery",
-        "http://s2.glbimg.com/FxWjnUiDU0BZ4JAlcGiMu-4lzjo=/620x400/e.glbimg.com/og/ed/f/original/2014/12/05/aro7767.jpg",
-        "https://http2.mlstatic.com/D_NQ_NP_889831-MLB28502957820_102018-UB.jpg",
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2L69a7swIUE_rhxhZLXl22YmuQ5cwX3O4OzA6W-pMYC6r9nTV",
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwJn9TmdGLcwN7vS4GxFAlTE1Ljp8SIBhWxer0nuMjS1_BBUVg",
-        "https://s3.amazonaws.com/www.revistacarro.com.br/static/images/uploads/mercedesgla04lanterna_620x350.jpg",
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ_SAmHqbI31fGseJo7Evw3AKmg9p4vSerxyI47baF7g8WdZg_EA",
+        "https://cdn.pursuitist.com/wp-content/uploads/2010-Jaguar-XJ.jpg",
+        "https://ethendras.files.wordpress.com/2011/03/range-rover-autobiography-ultimate-edition.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGJ2qFfCIFqIApy9zCEi9knaAXl463lmSDhsfTOtD1P5mNMBLK",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6vRXUmLLmfRXZHcX0eGCbvM_RoQX5ieNlcTTfqb7nxzqRHyiB",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtlQ0T_yPV9bPiXYDEozyThUFX8X74U-048QQJvS6n6cUJqTvh",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIaqbpZGyHtEmBLrSXzxLywo6AawYdg985ETNKXOyUvkPdeQoPlA",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRykFlGm-SKcrq5BxO6JwkY-IJxGq7ab77GRktv1eYy-5LGTaSt",
+        "https://sociorocketnewsen.files.wordpress.com/2017/01/bd-0.jpg?w=640",
+        "http://www.american-muscle-cars.net/images/62Pontiac-GrandPrix-LF.jpg",
+        "https://oddstuffmagazine.com/wp-content/uploads/2012/02/0bldgkOa3537P_738-580x406.jpg",
+        "https://file.kbb.com/kbb/images/content/editorial/slideshow/refreshed-toyota-auris-previews-2016-scion-im-/2016-toyota-auris-hybrid-hatchback-front-seats-detail4-600-001.jpg",
         "https://www.autoo.com.br/fotos/2017/8/960_720/mercedes-benz_gla_2018_1_09082017_6763_960_720.jpg"
       ]
     }

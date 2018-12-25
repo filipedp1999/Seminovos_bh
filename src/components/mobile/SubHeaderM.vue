@@ -2,26 +2,19 @@
   <div>
     <div class="container pt-2">
       <div class="mt-2 d-flex flex-row border-bottom border-dark align-items-center">
-        <div class="p-1 flex-grow-1 text-dark">
+        <div class="text-left flex-grow-1 text-dark">
           <h3>DETALHES DO VEÍCULO</h3>
         </div>
         <div class="p-1 align-self-center">
           <a class="btn btn-social-icon btn-facebook">
             <span class="text-white fab fa-facebook-f"></span>
           </a>
-        </div>
-        <div class="p-1 align-self-center">
           <a class="btn btn-social-icon btn-twitter">
             <span class="text-white fab fa-twitter"></span>
           </a>
-        </div>
-        <div class="p-1 align-self-center">
           <a class="btn btn-social-icon btn-google">
             <span class="text-white fab fa-google-plus-g"></span>
           </a>
-        </div>
-
-        <div class="p-1 align-self-center">
           <a class="btn btn-social-icon btn-openid email">
             <span class="text-white far fa-envelope"></span>
           </a>
