@@ -1,19 +1,29 @@
 <template>
-  <div class="home">
-    <header>
-      <Navbar/>
-    </header>
-    <main>
-      <div class="container">
-        <SubHeader/>
-        <Content/>
-        <Ad/>
-      </div>
-    </main>
-    <footer>
-      <Footer/>
-      <Copyright/>
-    </footer>
+  <div>
+    <div v-if="w >= 1000" class="home">
+      <header>
+        <Navbar/>
+      </header>
+      <main>
+        <div class="container">
+          <SubHeader/>
+          <Content/>
+          <Ad/>
+        </div>
+      </main>
+      <footer>
+        <Footer/>
+        <Copyright/>
+      </footer>
+    </div>
+    <div v-else>
+      <header>
+        <NavbarM/>
+      </header>
+      <main>
+        <ContentM/>
+      </main>
+    </div>
   </div>
 </template>
 
@@ -24,9 +34,14 @@ import Content from "./subcomponents/Content";
 import Ad from "./subcomponents/Ad";
 import Footer from "./subcomponents/Footer";
 import Copyright from "./subcomponents/Copyright";
+import NavbarM from "./mobile/NavbarM";
+import ContentM from "./mobile/ContentM";
 
 export default {
   name: "Home",
+  data: function() {
+    return {};
+  },
 
   components: {
     Navbar,
@@ -34,7 +49,13 @@ export default {
     Content,
     Ad,
     Footer,
-    Copyright
+    Copyright,
+    NavbarM
+  },
+  computed: {
+    w: () => {
+      return $(window).width();
+    }
   }
 };
 </script>
