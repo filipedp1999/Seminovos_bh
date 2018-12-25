@@ -77,13 +77,76 @@
                 <div class="col-2">
                   <img src="../../assets/icons/ico_km.svg" class="img-fluid">
                 </div>
-                <div class="col-6 offset-3">
-                  {{anuncio.dados_carro.km}}
-                  <small>km</small>
+                <div class="col-4">
+                  <span class="align-middle">KM</span>
+                </div>
+                <div class="col-5">
+                  <strong class="align-middle">{{anuncio.dados_carro.km}}</strong>
+                  <small class="align-middle">km</small>
                 </div>
               </div>
             </div>
             <!-- / KM  -->
+            <!-- COMBUSTÍVEL  -->
+            <div class="border-bottom border-muted p-2 text-left col-12">
+              <div class="row">
+                <div class="col-2">
+                  <img src="../../assets/icons/ico_combustivel.svg" class="img-fluid">
+                </div>
+                <div class="col-4">
+                  <span class="align-middle">COMBUSTÍVEL</span>
+                </div>
+                <div class="col-5">
+                  <strong class="align-middle">{{anuncio.dados_carro.combustivel | ToMaiusculo}}</strong>
+                </div>
+              </div>
+            </div>
+            <!-- / COMBUSTÍVEL  -->
+            <!-- ANO/MODELO  -->
+            <div class="border-bottom border-muted p-2 text-left col-12">
+              <div class="row">
+                <div class="col-2">
+                  <img src="../../assets/icons/ico_cadastro.svg" class="img-fluid">
+                </div>
+                <div class="col-4">
+                  <span class="align-middle">ANO/MODELO</span>
+                </div>
+                <div class="col-5">
+                  <strong class="align-middle">{{anuncio.dados_carro.ano_modelo | ToMaiusculo}}</strong>
+                </div>
+              </div>
+            </div>
+            <!-- / ANO/MODELO  -->
+            <!-- CÂMBIO  -->
+            <div class="border-bottom border-muted p-2 text-left col-12">
+              <div class="row">
+                <div class="col-2">
+                  <img src="../../assets/icons/ico_cambio.svg" class="img-fluid">
+                </div>
+                <div class="col-4">
+                  <span class="align-middle">CÂMBIO</span>
+                </div>
+                <div class="col-5">
+                  <strong class="align-middle">{{anuncio.dados_carro.cambio | ToMaiusculo}}</strong>
+                </div>
+              </div>
+            </div>
+            <!-- / CÂMBIO  -->
+            <!-- PORTAS  -->
+            <div class="border-bottom border-muted p-2 text-left col-12">
+              <div class="row">
+                <div class="col-2">
+                  <img src="../../assets/icons/ico_portas.svg" class="img-fluid">
+                </div>
+                <div class="col-4">
+                  <span class="align-middle">PORTAS</span>
+                </div>
+                <div class="col-5">
+                  <strong class="align-middle">{{anuncio.dados_carro.portas}}</strong>
+                </div>
+              </div>
+            </div>
+            <!-- / PORTAS  -->
           </div>
         </div>
         <!-- / MENU LATERAL -->
