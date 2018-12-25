@@ -21,6 +21,7 @@
         <NavbarM/>
       </header>
       <main>
+        <SubHeaderM/>
         <ContentM/>
       </main>
     </div>
@@ -36,6 +37,7 @@ import Footer from "./subcomponents/Footer";
 import Copyright from "./subcomponents/Copyright";
 import NavbarM from "./mobile/NavbarM";
 import ContentM from "./mobile/ContentM";
+import SubHeaderM from "./mobile/SubHeaderM";
 
 export default {
   name: "Home",
@@ -50,7 +52,9 @@ export default {
     Ad,
     Footer,
     Copyright,
-    NavbarM
+    NavbarM,
+    ContentM,
+    SubHeaderM
   },
   computed: {
     w: () => {
