@@ -11,6 +11,10 @@
         <div class="col-12 col-lg-9">
           <CardataM :loaded="loaded" :anuncio="anuncio"/>
         </div>
+        <div class="col-lg-3 bg-danger d-none d-lg-block">XXXX</div>
+        <div class="col-12">
+          <RecomendationM :loaded="loaded" :anuncio="anuncio"/>
+        </div>
       </div>
     </div>
   </div>
@@ -19,6 +23,7 @@
 <script>
 import Navigation from "./Navigation";
 import CardataM from "./CardataM";
+import RecomendationM from "./RecomendationM";
 export default {
   name: "ContentM",
   data() {
@@ -50,7 +55,8 @@ export default {
   },
   components: {
     Navigation,
-    CardataM
+    CardataM,
+    RecomendationM
   },
   computed: {}
 };
