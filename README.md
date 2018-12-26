@@ -25,6 +25,5 @@ $ npm install
 Feito isso use os comandos para começar o projeto e seu "banco de dados" vindo da API falsa:
 
 ```bash
-$ npm run database
 $ npm run start
 ```
