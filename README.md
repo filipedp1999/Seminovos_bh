@@ -9,7 +9,9 @@
 Use o comando abaixo para instalar o [json-server](https://github.com/typicode/json-server) que simula uma Rest API para consumo do site.
 
 ```bash
-$ npm install -g [json-server](https://github.com/typicode/json-server)
+$ npm install -g json-server (https://github.com/typicode/json-server)
+ou simplemente
+$ npm run prepare
 ```
 
 Em seguida use para instalar as demais dependências:
