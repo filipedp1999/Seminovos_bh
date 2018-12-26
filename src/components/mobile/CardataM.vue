@@ -339,6 +339,80 @@
           </div>
         </div>
         <!-- / OBSERVAÇÕES -->
+        <!--  VALOR DE MERCADO -->
+        <div class="col-12 p-1 mt-2">
+          <div class="row text-left">
+            <div class="col-12 mb-2">
+              <h4>Valor de mercado</h4>
+            </div>
+            <div class="col-12">
+              <div class="row">
+                <!-- CARD - VALOR DE MERCADO -->
+                <div class="mt-2 mt-lg-0 col-12 col-lg-4">
+                  <div class="card">
+                    <div class="pl-2 text-left">
+                      <small>
+                        Média
+                        <a href="https://seminovos.com.br" class="text-dark">
+                          <strong>Seminovos.com.br</strong>:
+                        </a>
+                      </small>
+                    </div>
+                    <div class="card-body text-center">
+                      <h4
+                        class="text-center mb-2 mt-3 text-dark"
+                      >R$ {{anuncio.valor_mercado | ToValor}}</h4>
+                      <small>
+                        Anúncios em
+                        <a href="#" class="text-dark">
+                          <strong>Belo Horizonte</strong>
+                        </a>
+                      </small>
+                    </div>
+                  </div>
+                </div>
+                <!-- / CARD - VALOR DE MERCADO -->
+                <!-- CARD - VALOR ANUNCIADO -->
+                <div class="mt-2 mt-lg-0 col-12 col-lg-4">
+                  <div class="card">
+                    <div class="pl-2 text-left">
+                      <small>Valor Anunciado</small>
+                    </div>
+                    <div class="card-body text-center">
+                      <h4 class="text-center mb-2 mt-3 text-warning">R$ {{anuncio.valor | ToValor}}</h4>
+                      <small>
+                        00%
+                        <span class="text-danger">acima</span> da média
+                      </small>
+                    </div>
+                  </div>
+                </div>
+                <!-- / CARD - VALOR ANUNCIADO -->
+                <!-- CARD - TABELA FIPE -->
+                <div class="mt-2 mt-lg-0 col-12 col-lg-4">
+                  <div class="card">
+                    <div class="pl-2 text-left">
+                      <small>
+                        Média
+                        <strong>Tabela fipe</strong>
+                      </small>
+                    </div>
+                    <div class="card-body text-center">
+                      <h4
+                        class="text-center mb-2 mt-3 text-dark"
+                      >R$ {{anuncio.valor_fipe | ToValor}}</h4>
+                      <small>
+                        <a href="#" class="text-dark">Entenda como funciona</a>
+                      </small>
+                    </div>
+                  </div>
+                </div>
+                <!-- / CARD - TABELA FIPE -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- / VALOR DE MERCADO -->
       </div>
     </div>
   </div>
