@@ -40,7 +40,7 @@
           </div>
         </div>
       </div>
-      <div class="row">
+      <div class="row d-none d-lg-flex">
         <div class="col-3">
           <div class="row">
             <a href="#" class="col-2">
