@@ -13,6 +13,7 @@
       >
         <span class="navbar-toggler-icon"></span>
       </button>
+
       <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
         <div class="container">
           <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
@@ -69,10 +70,16 @@
 </template>
 
 <script>
+import ContactM from "./ContactM";
+
 export default {
   name: "NavbarM",
+  props: ["loaded", "anuncio"],
   data() {
     return {};
+  },
+  components: {
+    ContactM
   }
 };
 </script>

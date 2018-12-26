@@ -415,17 +415,41 @@
           </div>
         </div>
         <!-- / VALOR DE MERCADO -->
+        <button
+          class="navbar-toggler bg-warning col-12 d-lg-none mt-2"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="text-dark">Faça uma proposta</span>
+        </button>
+        <div class="col-12 d-lg-none">
+          <div class="collapse" id="navbarTogglerDemo02">
+            <div class="container">
+              <div class="row">
+                <ContactM :loaded="loaded" :anuncio="anuncio"/>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </template>
 
 <script>
+import ContactM from "./ContactM";
 export default {
   props: ["loaded", "anuncio"],
   name: "CardataM",
   data() {
     return {};
+  },
+  components: {
+    ContactM
   }
 };
 </script>
