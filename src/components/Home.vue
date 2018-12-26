@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div v-if="w >= 1000" class="home">
+    <!-- <div v-if="w >= 1000" class="home">
       <header>
         <Navbar/>
       </header>
@@ -16,19 +16,26 @@
         <Copyright/>
       </footer>
     </div>
-    <div v-else>
-      <header>
-        <NavbarM/>
-      </header>
-      <main>
-        <SubHeaderM/>
-        <ContentM/>
-      </main>
-      <footer>
-        <FooterM/>
-      </footer>
-    </div>
+    <div v-else>-->
+    <header>
+      <NavbarM/>
+    </header>
+    <main>
+      <SubHeaderM/>
+      <ContentM
+        v-if="loaded"
+        :anuncio_escolhido="anuncio_escolhido"
+        :anuncio="anuncio"
+        :todos_anuncios="todos_anuncios"
+        :total_anuncios="total_anuncios"
+        :loaded="loaded"
+      />
+    </main>
+    <footer>
+      <FooterM/>
+    </footer>
   </div>
+  <!-- </div> -->
 </template>
 
 <script>
@@ -46,7 +53,13 @@ import FooterM from "./mobile/FooterM";
 export default {
   name: "Home",
   data: function() {
-    return {};
+    return {
+      anuncio_escolhido: 0,
+      anuncio: {},
+      todos_anuncios: {},
+      loaded: false,
+      total_anuncios: 0
+    };
   },
 
   components: {
@@ -61,10 +74,24 @@ export default {
     SubHeaderM,
     FooterM
   },
-  computed: {
-    w: () => {
-      return $(window).width();
-    }
+  created() {
+    //Script do Vue para fazer uma requição no banco de dados.
+    this.$http.get(this.bd_host + "anuncios/").then(
+      response => {
+        // get body data
+        // transfere o resultado da requisição para uma variavel local do vue
+        this.todos_anuncios = response.body;
+        // pegando o anuncio escolhido
+        this.anuncio = response.body[this.anuncio_escolhido];
+        // contador de anuncios
+        this.total_anuncios = this.todos_anuncios.length;
+        this.loaded = true;
+        console.log(this.anuncio);
+      },
+      response => {
+        // error callback
+      }
+    );
   }
 };
 </script>

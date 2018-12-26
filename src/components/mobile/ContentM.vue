@@ -11,7 +11,9 @@
         <div class="col-12 col-lg-9">
           <CardataM :loaded="loaded" :anuncio="anuncio"/>
         </div>
-        <div class="col-lg-3 bg-danger d-none d-lg-block">XXXX</div>
+        <div class="col-lg-3 d-none d-lg-block">
+          <ContactM :loaded="loaded" :anuncio="anuncio"/>
+        </div>
         <div class="col-12">
           <RecomendationM :loaded="loaded" :anuncio="anuncio"/>
         </div>
@@ -28,40 +30,23 @@ import Navigation from "./Navigation";
 import CardataM from "./CardataM";
 import RecomendationM from "./RecomendationM";
 import AdM from "./AdM";
+import ContactM from "./ContactM";
 export default {
   name: "ContentM",
-  data() {
-    return {
-      anuncio_escolhido: 0,
-      anuncio: {},
-      todos_anuncios: {},
-      loaded: false
-    };
-  },
-  created() {
-    //Script do Vue para fazer uma requição no banco de dados.
-    this.$http.get(this.bd_host + "anuncios/").then(
-      response => {
-        // get body data
-        // transfere o resultado da requisição para uma variavel local do vue
-        this.todos_anuncios = response.body;
-        // pegando o anuncio escolhido
-        this.anuncio = response.body[this.anuncio_escolhido];
-        // contador de anuncios
-        this.total_anuncios = this.todos_anuncios.length;
-        this.loaded = true;
-        console.log(this.anuncio);
-      },
-      response => {
-        // error callback
-      }
-    );
-  },
+  props: [
+    "anuncio_escolhido",
+    "total_anuncios",
+    "anuncio",
+    "todos_anuncios",
+    "loaded"
+  ],
+
   components: {
     Navigation,
     CardataM,
     RecomendationM,
-    AdM
+    AdM,
+    ContactM
   },
   computed: {}
 };
