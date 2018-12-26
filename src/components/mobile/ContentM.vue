@@ -15,6 +15,9 @@
         <div class="col-12">
           <RecomendationM :loaded="loaded" :anuncio="anuncio"/>
         </div>
+        <div class="col-12">
+          <AdM/>
+        </div>
       </div>
     </div>
   </div>
@@ -24,6 +27,7 @@
 import Navigation from "./Navigation";
 import CardataM from "./CardataM";
 import RecomendationM from "./RecomendationM";
+import AdM from "./AdM";
 export default {
   name: "ContentM",
   data() {
@@ -56,7 +60,8 @@ export default {
   components: {
     Navigation,
     CardataM,
-    RecomendationM
+    RecomendationM,
+    AdM
   },
   computed: {}
 };

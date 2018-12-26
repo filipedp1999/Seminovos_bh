@@ -209,7 +209,9 @@
             </div>
             <!-- / ACEITA TROCA -->
             <!-- BANNER FINANCIAMENTO -->
-            <div v-if="anuncio.aceita_financiamento" class="mt-3 col-12">
+          </div>
+          <div class="row justify-content-center">
+            <div v-if="anuncio.aceita_financiamento" class="mt-3 ml-4 ml-lg-0 col-12">
               <img src="../../assets/img/banner_financiamento.jpg" class="img-fluid">
             </div>
             <!-- / BANNER FINANCIAMENTO -->
