@@ -74,7 +74,6 @@ import ContactM from "./ContactM";
 
 export default {
   name: "NavbarM",
-  props: ["loaded", "anuncio"],
   data() {
     return {};
   },
