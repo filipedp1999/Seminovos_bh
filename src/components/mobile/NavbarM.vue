@@ -1,25 +1,7 @@
 <template>
   <div>
-    <!-- PRIMEIRO MENU ( PROPAGANDA ) -->
-    <nav class="navbar navbar-light bg-light">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <div class="row">
-              <div class="col-lg-2 col-3">
-                <img src="../../assets/img/logo.svg" class="img-fluid">
-              </div>
-              <div class="col-lg-10 col-9">
-                <img src="../../assets/img/banner.jpg" class="img-fluid">
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </nav>
-    <!-- / PRIMEMIRO MENU -->
     <!-- SEGUNDO MENU ( MENU DE VERDADE ) -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <button
         class="navbar-toggler"
         type="button"
@@ -67,6 +49,22 @@
     </nav>
 
     <!-- / SEGUNDO MENU -->
+    <!-- PRIMEIRO MENU ( PROPAGANDA ) -->
+    <div class="mt-5 container">
+      <div class="mt-5 row">
+        <div class="mt-4 col-12">
+          <div class="row">
+            <div class="col-lg-2 col-3">
+              <img src="../../assets/img/logo.svg" class="img-fluid">
+            </div>
+            <div class="col-lg-10 col-9">
+              <img src="../../assets/img/banner.jpg" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- / PRIMEMIRO MENU -->
   </div>
 </template>
 

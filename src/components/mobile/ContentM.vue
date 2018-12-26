@@ -6,7 +6,13 @@
       :anuncio_escolhido="anuncio_escolhido"
       :total_anuncios="total_anuncios"
     />
-    <CardataM :loaded="loaded" :anuncio="anuncio"/>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-9">
+          <CardataM :loaded="loaded" :anuncio="anuncio"/>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
